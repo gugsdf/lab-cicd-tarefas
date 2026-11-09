@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Minhas tarefas | Lab CI CD</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./src/app.js"></script>
+</head>
+<body>
+  <main>
+    <p class="eyebrow">LAB DEVOPS <span>CI / CD</span></p>
+    <h1>Um passo de cada vez.</h1>
+    <p class="intro">Organize suas tarefas e acompanhe o que já foi concluído.</p>
+    <section aria-labelledby="list-title">
+      <div class="section-heading"><h2 id="list-title">Minhas tarefas</h2><span class="tag">Salvas no navegador</span></div>
+      <form><label for="title">Nova tarefa</label><div class="entry"><input id="title" placeholder="O que você vai fazer hoje?" maxlength="120" required autocomplete="off"><button type="submit">Adicionar</button></div></form>
+      <p id="feedback" role="status" aria-live="polite"></p>
+      <p id="counter" class="counter"></p>
+      <ul id="tasks"></ul>
+      <p id="empty">Sua lista está vazia. Adicione a primeira tarefa.</p>
+    </section>
+    <footer>HTML · CSS · JavaScript <span>Publicado com GitHub Actions</span></footer>
+  </main>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "lab-cicd-tarefas",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "check": "node --check src/tasks.js && node --check src/app.js",
+    "build": "node scripts/build.js"
+  },
+  "engines": { "node": ">=24" }
+}
