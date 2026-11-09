@@ -27,3 +27,8 @@ Em Settings > Pages, selecione GitHub Actions como origem. GitHub Pages é adequ
 ## Limites
 
 As tarefas são locais ao navegador e não sincronizam entre dispositivos. Os testes automatizados verificam regras e referências da página; a interação visual deve ser conferida também no navegador.
+
+## Validação de pull requests
+
+A CI de um pull request deve passar sem executar o deployment. A publicação fica restrita aos pushes em main.
+
